@@ -2,6 +2,58 @@
    HERO — Cinematic Opening
    ═══════════════════════════════ */
 
+/* MODAL */
+.resume-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(8px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+/* BOX */
+.resume-content {
+  width: 80%;
+  height: 85%;
+  background: #0B0F19;
+  border-radius: 12px;
+  padding: 20px;
+  position: relative;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.6);
+}
+
+/* IFRAME */
+.resume-frame {
+  width: 100%;
+  height: 85%;
+  border: none;
+  border-radius: 8px;
+}
+
+/* CLOSE BUTTON */
+.resume-close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 22px;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* DOWNLOAD */
+.resume-download {
+  margin-top: 10px;
+  display: inline-block;
+}
+   
 .hero {
   position: relative;
   min-height: 100vh;
