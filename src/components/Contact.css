@@ -272,6 +272,9 @@
   animation: fadeUp 0.4s var(--ease-out) both;
 }
 
+
+
+
 @media (max-width: 900px) {
   .contact { padding: 80px 20px; }
   .contact__inner {

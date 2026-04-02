@@ -9,14 +9,14 @@ const PROJECTS = [
     desc: 'Solution: Built a centralized equipment management platform using a Flask API and PostgreSQL backend to manage 500+ daily CRUD operations. Impact: Optimized React state management, resulting in a 20% boost in UI rendering speed and a significant reduction in database latency through indexed SQL queries',
     tags: ['React', 'Flask', 'PostgreSQL', 'JWT', 'API'],
   },
-  {
-    num: '02',
-    title: 'Inventory Dashboard',
-    badge: 'Building',
-    badgeClass: 'badge-build',
-    desc: 'Smart inventory management for small businesses. Real-time stock tracking, automated low-stock alerts, purchase orders, and analytics charts built on a Python backend.',
-    tags: ['Python', 'Flask', 'SQLAlchemy', 'React', 'Chart.js'],
-  },
+  // {
+  //   num: '02',
+  //   title: 'Inventory Dashboard',
+  //   badge: 'Building',
+  //   badgeClass: 'badge-build',
+  //   desc: 'Smart inventory management for small businesses. Real-time stock tracking, automated low-stock alerts, purchase orders, and analytics charts built on a Python backend.',
+  //   tags: ['Python', 'Flask', 'SQLAlchemy', 'React', 'Chart.js'],
+  // },
   {
     num: '03',
     title: 'Weather-Report',
@@ -25,14 +25,14 @@ const PROJECTS = [
     desc: 'Solution: Developed a responsive dashboard using React and Flask to securely manage API keys and handle asynchronous data streams from OpenWeatherMap.Impact: Achieved a 100% Mobile Responsiveness score using CSS3 Media Queries and implemented error boundaries for a seamless user experience',
     tags: ['Javascript', 'HTML', 'CSS3'],
   },
-  {
-    num: '04',
-    title: 'Portfolio Website',
-    badge: 'Live',
-    badgeClass: 'badge-live',
-    desc: "This very site — designed from scratch with obsessive attention to motion, typography, and detail. Vite + React, zero external UI libraries.",
-    tags: ['React', 'Vite', 'CSS3', 'HTML5'],
-  },
+  // {
+  //   num: '04',
+  //   title: 'Portfolio Website',
+  //   badge: 'Live',
+  //   badgeClass: 'badge-live',
+  //   desc: "This very site — designed from scratch with obsessive attention to motion, typography, and detail. Vite + React, zero external UI libraries.",
+  //   tags: ['React', 'Vite', 'CSS3', 'HTML5'],
+  // },
 ]
 
 export function Projects() {
