@@ -2,9 +2,9 @@ import { useState } from 'react'
 import './Contact.css'
 
 const SOCIALS = [
-  { icon: '📧', label: 'Email',    value: 'nanthakumar@email.com',      href: 'mailto:nnantha971@gmail.com' },
-  { icon: '💼', label: 'LinkedIn', value: 'linkedin.com/in/nanthakumar', href: 'https://www.linkedin.com/in/nantha-kumar-1670ba293' },
-  { icon: '🐙', label: 'GitHub',   value: 'github.com/nanthakumar',      href: 'https://github.com/Nantha-Code?tab=overview&from=2026-02-01&to=2026-02-28' },
+  { icon: '📧', label: 'Email',    value: 'nnanthakumar971@gmail.com',      href: 'nnantha971@gmail.com' },
+  { icon: '💼', label: 'LinkedIn', value: 'Linkedin.com', href: 'https://www.linkedin.com/in/nantha-kumar-1670ba293' },
+  { icon: '🐙', label: 'Whats-app',   value: '7826872037',      href: '#' },
 ]
 
 export function Contact() {
@@ -59,7 +59,7 @@ export function Contact() {
         </div>
 
         {/* ── Right: Form ── */}
-        <div className="contact__form-wrap reveal-right delay-2">
+        {/* <div className="contact__form-wrap reveal-right delay-2">
           <form className="contact__form" onSubmit={handleSubmit}>
             <div className="contact__row">
               <div className="contact__field">
@@ -130,7 +130,7 @@ export function Contact() {
               </div>
             )}
           </form>
-        </div>
+        </div> */}
       </div>
     </section>
   )
