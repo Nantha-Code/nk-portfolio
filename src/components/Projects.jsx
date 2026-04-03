@@ -47,7 +47,7 @@ export function Projects() {
             My <em>Projects</em>
           </h2>
         </div>
-        <a href="#contact" className="btn-outline reveal delay-2">All Projects →</a>
+        <a href="https://github.com/Nantha-Code?tab=overview&from=2026-02-01&to=2026-02-28" className="btn-outline reveal delay-2">All Projects →</a>
       </div>
 
       <div className="projects__list">
