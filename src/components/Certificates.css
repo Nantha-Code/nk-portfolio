@@ -1,0 +1,108 @@
+/* ══════════════════════════════
+   CERTIFICATES SECTION
+   ══════════════════════════════ */
+
+.certificates {
+  padding: 120px clamp(20px, 5vw, 80px);
+  background: var(--obsidian);
+}
+
+.certificates__inner {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.certificates__header {
+  margin-bottom: 72px;
+}
+
+/* GRID */
+.certificates__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+}
+
+/* CARD */
+.certificate-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+
+  background: var(--obsidian-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+
+  padding: 28px;
+
+  transition: all 0.35s var(--ease-out);
+  position: relative;
+  overflow: hidden;
+}
+
+/* HOVER EFFECT (same vibe as education cards) */
+.certificate-card:hover {
+  transform: translateY(-6px);
+  border-color: var(--border-bright);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+/* TOP ICON (optional visual polish) */
+.certificate-card::before {
+  content: "📜";
+  font-size: 22px;
+  display: inline-block;
+  margin-bottom: 14px;
+  opacity: 0.8;
+}
+
+/* TITLE */
+.certificate-title {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: var(--white);
+}
+
+/* PLATFORM */
+.certificate-platform {
+  font-size: 0.9rem;
+  color: var(--white-70);
+  margin-bottom: 6px;
+}
+
+/* DATE */
+.certificate-date {
+  font-size: 0.8rem;
+  color: var(--white-40);
+  margin-bottom: 18px;
+}
+
+/* LINK TEXT */
+.certificate-link {
+  font-size: 0.75rem;
+  font-family: var(--font-mono);
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--gold);
+
+  display: inline-block;
+  position: relative;
+}
+
+/* subtle underline animation */
+.certificate-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0%;
+  height: 1px;
+  background: var(--gold);
+  transition: width 0.3s ease;
+}
+
+.certificate-card:hover .certificate-link::after {
+  width: 100%;
+}

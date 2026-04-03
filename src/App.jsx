@@ -9,6 +9,7 @@ import { Education }  from './components/Education'
 import { Contact }    from './components/Contact'
 import { Footer }     from './components/Footer'
 import { useScrollReveal } from './hooks/useScrollReveal'
+import { Certificates } from './components/Certificates'
 
 export default function App() {
   // Activates scroll reveal for all .reveal elements
@@ -23,6 +24,7 @@ export default function App() {
         <About />
         <Projects />
         <Skills />
+        <Certificates />
         <Experience />
         <Education />
         <Contact />
