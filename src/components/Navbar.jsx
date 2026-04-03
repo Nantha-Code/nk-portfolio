@@ -35,9 +35,9 @@ export function Navbar() {
           ))}
         </ul>
 
-        <a href="#contact" className="navbar__cta">
+        {/* <a href="#contact" className="navbar__cta">
           <span>Hire Me</span>
-        </a>
+        </a> */}
 
         <button
           className="navbar__burger"
