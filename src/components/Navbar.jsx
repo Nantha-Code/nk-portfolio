@@ -17,6 +17,7 @@ export function Navbar() {
     { href: '#skills',     label: 'Skills'     },
     { href: '#experience', label: 'Experience' },
     { href: '#education',  label: 'Education'  },
+    { href: '#certificates', label: 'Certificates' },
   ]
 
   const closeMenu = () => setMenuOpen(false)
