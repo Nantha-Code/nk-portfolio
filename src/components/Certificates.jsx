@@ -8,7 +8,7 @@ const CERTIFICATES = [
     title: "Full Stack Development",
     platform: "Business Core Solutions",
     date: "2026",
-    link: "https://www.linkedin.com/posts/your-profile/certificate-link-1",
+    link: "https://www.linkedin.com/posts/nantha-kumar-1670ba293_learning-itskills-professionalgrowth-share-7446605707753209856-0xLt?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEcHL18BLKg9DDgk3dPWwZCO11AeD3rhu-c",
   }
 ]
 
