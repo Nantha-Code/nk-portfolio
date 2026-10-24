@@ -8,21 +8,33 @@ import pythonIcon from "../assets/icons/python.png"
 import flaskIcon from "../assets/icons/flask.png"
 import sqlIcon from "../assets/icons/sql.png"
 import postgresIcon from "../assets/icons/postgres.png"
+import gitIcon from "../assets/icons/git.png"
+import githubIcon from "../assets/icons/github.png"
+import nodejsIcon from "../assets/icons/nodejs.png"
+import expressjsIcon from "../assets/icons/expressjs.png"
+import mongodbIcon from "../assets/icons/mongodb.png"
+import postmanIcon from "../assets/icons/postman.png"
 
 const SKILL_CARDS = [
   { icon: htmlIcon, name: "HTML5" },
   { icon: cssIcon, name: "CSS3" },
   { icon: jsIcon, name: "JavaScript" },
   { icon: reactIcon, name: "React.js" },
-  { icon: pythonIcon, name: "Python" },
+  { icon: nodejsIcon, name: "Node.js" },
+  { icon: expressjsIcon, name: "Express.js" },
+  { icon: mongodbIcon, name: "MongoDB" },
   { icon: flaskIcon, name: "Flask" },
+  { icon: gitIcon, name: "Git" },
+  { icon: githubIcon, name: "GitHub" },
+  { icon: postmanIcon, name: "Postman" },
+  { icon: pythonIcon, name: "Python" },
   { icon: sqlIcon, name: "SQL" },
-  { icon: postgresIcon, name: "PostgreSQL" },
+  { icon: postgresIcon, name: "PostgreSQL" }
 ]
 
 const MARQUEE_ITEMS = [
   "React.js","Python","Flask","PostgreSQL","HTML5","CSS3",
-  "JavaScript","REST API","SQL","Git","Vite","Fullstack",
+  "JavaScript","Node.js","Express.js","MongoDB" ,"REST API","SQL","Git","Vite"
 ]
 
 export function Skills() {
