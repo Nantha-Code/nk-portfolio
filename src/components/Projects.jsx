@@ -4,19 +4,20 @@ const PROJECTS = [
   {
     num: '01',
     title: 'EquipNet India',
-    badge: 'Live',
-    badgeClass: 'badge-live',
+    badge: 'Done',
+    badgeClass: 'badge-done',
     desc: 'Solution: Built a centralized equipment management platform using a Flask API and PostgreSQL backend to manage 500+ daily CRUD operations. Impact: Optimized React state management, resulting in a 20% boost in UI rendering speed and a significant reduction in database latency through indexed SQL queries',
     tags: ['React', 'Flask', 'PostgreSQL', 'JWT', 'API'],
   },
-  // {
-  //   num: '02',
-  //   title: 'Inventory Dashboard',
-  //   badge: 'Building',
-  //   badgeClass: 'badge-build',
-  //   desc: 'Smart inventory management for small businesses. Real-time stock tracking, automated low-stock alerts, purchase orders, and analytics charts built on a Python backend.',
-  //   tags: ['Python', 'Flask', 'SQLAlchemy', 'React', 'Chart.js'],
-  // },
+  
+  {
+    num: '02',
+    title: 'LeaveFlow',
+    badge: 'Done',
+    badgeClass: 'badge-done',
+    desc: 'Solution: Developed a full-stack leave management application using React, Node.js, Express.js, and PostgreSQL, featuring role-based authentication for employees and managers, leave applications, balance tracking, and approval workflows. Impact: Streamlined leave request processing with real-time status updates, leave cancellation, and manager approval/rejection workflows with comments.',
+    tags: ['React.js', 'Node.js', 'Express.js', 'PostgreSQL', 'REST API'],
+  },
   {
     num: '03',
     title: 'Weather-Report',
