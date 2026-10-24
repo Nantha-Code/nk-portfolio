@@ -4,7 +4,7 @@ import './Contact.css'
 const SOCIALS = [
   { icon: '📧', label: 'Email',    value: 'nnanthakumar971@gmail.com',      href: 'nnantha971@gmail.com' },
   { icon: '💼', label: 'LinkedIn', value: 'Linkedin.com', href: 'https://www.linkedin.com/in/nantha-kumar-1670ba293' },
-  { icon: '🐙', label: 'Whats-app',   value: '7826872037',      href: '#' },
+  { icon: '🐙', label: 'Whats-app',   value: '+91 7826872037',      href: '#' },
 ]
 
 export function Contact() {

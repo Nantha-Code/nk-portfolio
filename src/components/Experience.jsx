@@ -18,22 +18,22 @@ const EXPERIENCES = [
       'Code Reviews',
     ],
   },
-  {
-    id: 2,
-    dates: 'Jan 2026 — Present',
-    status: 'Active',
-    icon: '💻',
-    role: 'Freelance Fullstack Developer',
-    company: 'Independent / Personal Projects',
-    desc: 'Building and shipping personal and freelance projects that apply all fullstack skills acquired. Crafting responsive React interfaces, RESTful Flask services with SQLAlchemy ORM, and deploying to cloud platforms. Continuously learning new patterns, libraries, and best practices.',
-    highlights: [
-      'Client Projects',
-      'API Design',
-      'Database Design',
-      'Cloud Deployment',
-      'Performance Tuning',
-    ],
-  },
+  // {
+  //   id: 2,
+  //   dates: 'Jan 2026 — Present',
+  //   status: 'Active',
+  //   icon: '💻',
+  //   role: 'Freelance Fullstack Developer',
+  //   company: 'Independent / Personal Projects',
+  //   desc: 'Building and shipping personal and freelance projects that apply all fullstack skills acquired. Crafting responsive React interfaces, RESTful Flask services with SQLAlchemy ORM, and deploying to cloud platforms. Continuously learning new patterns, libraries, and best practices.',
+  //   highlights: [
+  //     'Client Projects',
+  //     'API Design',
+  //     'Database Design',
+  //     'Cloud Deployment',
+  //     'Performance Tuning',
+  //   ],
+  // },
 ]
 
 export function Experience() {
