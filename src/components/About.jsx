@@ -16,7 +16,46 @@ export function About() {
         </div>
 
         {/* ── Right ── */}
-        <div className="about__right reveal delay-2">
+
+                
+            <div className="about__right reveal delay-2">
+            <p className="about__intro">
+            A <em>Python Full Stack Developer</em> with skills in React.js,
+            Python, Flask, REST API development, and PostgreSQL, with an
+            interest in developing applications using the MERN stack.
+            </p>
+
+            <div className="about__body">
+            <p>
+              I completed an <strong>intensive 3-month full-stack development
+              program</strong> at <strong>Business Core Solutions</strong>,
+              where I learned frontend development, backend development,
+              database integration, and REST API development.
+            </p>
+
+            <p>
+              For frontend development, I use <strong>HTML, CSS, JavaScript,
+              and React.js</strong>. For backend development, I use
+              <strong> Python and Flask</strong> to build REST APIs and
+              integrate them with <strong>PostgreSQL</strong>. I also have
+              an interest in the <strong>MERN stack — MongoDB, Express.js,
+              React.js, and Node.js</strong>.
+            </p>
+
+            <p>
+              My technical skills include <strong>CRUD operations, REST API
+              integration, SQL queries, database design, responsive UI
+              development, debugging, Git, GitHub, and Postman</strong>.
+              I apply these skills while developing and testing web applications.
+            </p>
+            </div>
+            </div>
+
+
+
+
+
+        {/* <div className="about__right reveal delay-2">
           <p className="about__intro">
             A <em>Fullstack Developer</em> who builds things that live on both
             sides of the wire — beautiful interfaces and the APIs that power them.
@@ -42,13 +81,13 @@ export function About() {
               feel as good as they look. I love the moment a feature just
               <em> clicks</em> into place.
             </p>
-          </div>
+          </div> */}
 
           <div className="about__card">
             <span>{'Currently'}</span><br />
             Role &nbsp;&nbsp;&nbsp;: Fullstack Developer<br />
-            Stack &nbsp;&nbsp;: React · Flask · PostgreSQL<br />
-            Training: Business Core Solution (3 months)
+            Stack &nbsp;&nbsp;: Python & MERN Stack Developer<br />
+            Training: Business Core Solution (Dec 2025 - Mar 2026)
           </div>
 
           <div className="about__attrs">
