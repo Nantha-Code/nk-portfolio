@@ -32,11 +32,14 @@ export function Hero() {
               <span className="hero__role-text">Fullstack Developer</span>
             </div>
 
+            
             <p className="hero__desc">
-              I craft end-to-end web applications — from React interfaces to
-              robust <strong>Flask APIs</strong> and{" "}
-              <strong>PostgreSQL</strong>.
+              I build end-to-end web applications using{" "}
+              <strong>React.js</strong>, <strong>Python & Flask</strong>,
+              and the <strong>MERN stack</strong>, with database
+              integration using <strong>PostgreSQL and MongoDB</strong>.
             </p>
+            
 
             {/* ACTIONS */}
             <div className="hero__actions">
@@ -73,8 +76,8 @@ export function Hero() {
               </div>
 
               <div className="hero__code-badge">
-                React · Flask <br />
-                PostgreSQL
+                Pyhton + MERN<br />
+                Full Stack Developer
               </div>
             </div>
           </div>
